@@ -1,7 +1,7 @@
 #include <stdio.h>
 struct hosp_write
 {
-    char name[20];
+    char name[50];
     int age;
     char address[50];
     char condition[50];
