@@ -1,0 +1,24 @@
+Aashutosh Adhikari   19   Kathmandu     Good    3
+Abhishek Magar       21   Pokhara       Fair    5
+Akriti K.C.          18   Lalitpur      Good    2
+Amardi P Singh       22   Biratnagar    Bad     6
+Ankit Adhikari       20   Bhaktapur     Good    4
+Arun Bohora          19   Dhangadhi     Fair    7
+Bikash Thapa         21   Butwal        Good    1
+Kabir Kathayat       20   Doti          Excellent 2
+Krish Thapa Magar    22   Chitwan       Good    3
+Kriti Pandey         18   Janakpur      Fair    5
+Kumari Hema Bhatta   19   Nepalgunj     Good    6
+Lok Raj Kalouni      21   Hetauda       Bad     4
+Moon Kumar Tandukar  22   Kathmandu     Good    3
+Prabesh Adhikari     20   Birgunj       Fair    2
+Pranay Shrestha      19   Lalitpur      Good    1
+Roshan Shrestha      21   Bhaktapur     Excellent 7
+Samik Chauguthi      18   Dharan        Good    5
+Sandip Shah          22   Janakpur      Bad     6
+Shalinya Gautam      19   Pokhara       Good    3
+Shreesha Saud        20   Dhangadhi     Fair    2
+Sonish Manandhar     21   Kathmandu     Good    4
+Subham Shrestha      18   Lalitpur      Excellent 1
+Surakshya Poudel     19   Chitwan       Good    5
+Tanchhohang Limbu    22  Ilam           Fair    6
