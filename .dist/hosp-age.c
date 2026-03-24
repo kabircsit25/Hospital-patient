@@ -9,7 +9,7 @@ struct hosp_read
 };
 int main()
 {
-    int i, max_index=0, min_index=0;
+    int i, max_index = 0, min_index = 0;
     struct hosp_read hpp[24];
     FILE *fp;
     fp = fopen("hosp_write.txt", "r");
@@ -20,13 +20,16 @@ int main()
         {
             max_index = i;
         }
-        if (hpp[i].age < hpp[min_index].age)
-        {
-            min_index = i;
-        }
+
+        
+            if (hpp[i].age < hpp[min_index].age)
+            {
+                min_index = i;
+            }
+        
     }
-    printf("Oldest Patient with age %d: %s\n", hpp[max_index].age, hpp[max_index].name);
     printf("Youngest Patient with age %d: %s\n", hpp[min_index].age, hpp[min_index].name);
+    printf("Oldest Patient with age %d: %s\n", hpp[max_index].age, hpp[max_index].name);
     fclose(fp);
     return 0;
 }
