@@ -21,15 +21,25 @@ int main()
             max_index = i;
         }
 
-        
-            if (hpp[i].age < hpp[min_index].age)
-            {
-                min_index = i;
-            }
-        
+        if (hpp[i].age < hpp[min_index].age)
+        {
+            min_index = i;
+        }
     }
-    printf("Youngest Patient with age %d: %s\n", hpp[min_index].age, hpp[min_index].name);
-    printf("Oldest Patient with age %d: %s\n", hpp[max_index].age, hpp[max_index].name);
+    for (i = 0; i < 24; i++)
+    {
+        if (hpp[max_index].age == hpp[i].age)
+        {
+            printf("Oldest Patient with age %d: %s\n", hpp[i].age, hpp[i].name);
+        }
+    }
+    for (i = 0; i < 24; i++)
+    {
+        if (hpp[i].age == hpp[min_index].age)
+        {
+            printf("Youngest Patient with age %d: %s\n", hpp[i].age, hpp[i].name);
+        }
+    }
     fclose(fp);
     return 0;
 }
